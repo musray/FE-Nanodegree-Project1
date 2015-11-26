@@ -3,3 +3,35 @@ body {
   margin: 0;
   padding: 0;
 }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.logo, .my-info {
+  float: left;
+  outline: 1px solid lightsalmon;
+}
+.logo {
+  width: 30%;
+  padding: 15px 0px 10px 0px;
+}
+.logo img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+#my-name {
+  margin-bottom: 0px;
+  font-weight: lighter;
+  letter-spacing: .2em;
+}
+#my-profession {
+  margin-top: 0.3em;
+  letter-spacing: .1em;
+}
+.my-info {
+  text-align: right;
+  width: 70%;
+}
+.feature-title {
+  width: 100%;
+}
