@@ -1,6 +1,6 @@
 #Front End Nanodegree - Project1
 
-##Meats Specification
+##Meats Specifications
 ####Design
 1. includes at `least 4` images, title text, paragraph text, and a logo.
 2. No div tags are without a `class or id`.
