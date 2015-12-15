@@ -10,7 +10,8 @@ body {
 }
 .logo, .my-info {
   float: left;
-  /* outline: 1px solid lightsalmon; */
+  font-family: 'Passion One', cursive, sans-serif;
+  font-weight: ;
 }
 .logo {
   width: 30%;

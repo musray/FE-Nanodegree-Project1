@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 80%;
+}
+.header {
+  text-align: center;
+  border-bottom: 4px solid #cccccc;
+  border-top: 6px solid #cccccc;
+  padding-top: 0;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+
+#my-name {
+  margin-bottom: 2px;
+}
+
+#my-profession {
+  margin: 0px;
+}
+
+.main-story {
+  text-align: center;
+  /* border-bottom: 3px solid #cccccc; */
+  padding-bottom: 10px;
+}
+
+.main-story img {
+  width: 100%;
+}
+
+.feature-story {
+  text-align: center;
+}
+
+.feature-story img {
+  width: 100%;
+  border: 1px inset #cccccc;
+  box-sizing: border-box;
+}
+
+.feature-title {
+  text-align: center;
+}
+
+.sub-story {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.work-title {
+  margin-bottom: 0;
+}
