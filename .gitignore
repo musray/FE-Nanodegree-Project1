@@ -1,2 +1,4 @@
 .DS*
 resource/
+.*.swp
+todo
