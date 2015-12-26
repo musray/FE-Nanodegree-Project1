@@ -10,8 +10,9 @@
 
   <div class="container">
     <div class="jumbotron">
-      <h1>This page is styled and actived by Bootstrap and jQuery, respectively.</h1>
-      <p>Use bootstrap to make responsive login session. Then use jQuery to validate user input and hint the user when necessary.</p>
+      <h1>Bootstrap and JavaScript</h1>
+      <p>This page is styled and actived by Bootstrap and JavaScript, respectively.</p>
+      <p>Use bootstrap to make responsive login session. Then use jQuery and JavaScript to validate user input and hint the user when necessary.</p>
     </div>
   </div>
 
@@ -26,7 +27,7 @@
 
   </div>
 
-  <form action="#" method="post">
+  <form action="#" method="post" id="loginForm">
 
     <!-- modal component -->
     <div class="modal fade" id="loginModal" tabindex="-1">
@@ -36,30 +37,37 @@
           <!-- modal header -->
           <div class="modal-header">
             <button type="button" class="close"
-                    data-dismiss="modal">x</button>
+                                  data-dismiss="modal">x</button>
             <h4 class="modal-title"> Login</h4>
           </div>
 
           <!-- modal body -->
           <div class="modal-body">
 
-            <div class="form-group">
-              <label for="inputUserName" class="control-label"></label>
+            <div class="form-group" id="inputNameFormGroup">
+              <label for="inputUserName" class="control-label">User Name</label>
               <input type="text" id="inputUserName"
-                     class="form-control" placeholder="Please input your user name">
+                                 class="form-control" placeholder="Please input your user name">
             </div>
 
-            <div class="form-group">
-              <label for="inputPassword" class="control-label"></label>
+            <div class="form-group" id="inputPasswordGroup">
+              <label for="inputPassword" class="control-label">Password</label>
               <input type="password" id="inputPassword"
-                     class="form-control" placeholder="Please input your password">
+                                     class="form-control" placeholder="Please input your password">
             </div>
 
-            <div class="form-group">
-              <label for="repeatPassword" class="control-label"></label>
+            <div class="form-group" id="repeatPasswordGroup">
+              <label for="repeatPassword" class="control-label">Repeat Password</label>
               <input type="password" id="repeatPassword"
-                     class="form-control" placeholder="Please repeat your password">
+                                     class="form-control" placeholder="Please repeat your password">
             </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-lg-4"
+                   id="placeForAlert"></div>
+            </div>
+          </div>
 
           </div> <!-- modal body -->
 
@@ -67,10 +75,10 @@
           <div class="modal-footer">
 
             <button type="button" class="btn btn-default"
-                    data-dismiss="modal">cancel</button>
+                                  data-dismiss="modal">cancel</button>
 
-            <button type="submit" class="btn btn-primary">
-                    Submit</button>
+            <button type="submit" class="btn btn-primary"
+                                  id="submitButton"> Submit</button>
 
           </div>  <!-- modal footer -->
 
@@ -79,8 +87,8 @@
     </div>
 
   </form>
-
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="./js/customized.js"></script>
 </body>
 </html>
