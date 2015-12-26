@@ -15,7 +15,7 @@
     <header class="header">
 
       <div class="logo">
-        <img src="./images/logo.jpg" alt="logo" />
+        <img src="./images/logo.png" alt="logo" />
       </div>
 
       <div class="my-info">
@@ -26,7 +26,11 @@
     </header>
 
     <article class="main-story">
-        <img src="./images/big.png" alt="main article" />
+      <picture>
+        <source media="min-width: 1200px" srcset="./images/feature-1920.jpg, ./images/feature-image-2x.jpg 2x">
+        <source media="min-width: 800px" srcset="./images/feature-1229.jpg, ./images/feature-image-2x.jpg 2x">
+        <img src="./images/feature-960.jpg" alt="feature article image">
+      </picture>
     </article>
 
     <article class="feature-story">
@@ -36,33 +40,42 @@
       <!-- Portfolio 1 -->
       <div class="sub-story">
 
-        <a href="./features/portfolio1/portfolio1.html">
+        <a href="./features/portfolio1/portfolio1.html" target="_blank">
           <img src="./images/portfolio1.png" alt="my work No.1" />
         </a>
 
-        <p class="work-title"><a href="./features/portfolio1/portfolio1.html">Portfolio 1</a></p>
+        <p class="work-title">
+          <a href="./features/portfolio1/portfolio1.html"
+             target="_blank">Portfolio 1</a>
+        </p>
         <p>Understanding the BOX</p>
       </div>
 
       <!-- Portfolio 2 -->
       <div class="sub-story">
 
-        <a href="./features/portfolio2/layout.html">
+        <a href="./features/portfolio2/layout.html" target="_blank">
           <img src="./images/portfolio2.png" alt="my work No.2" />
         </a>
 
-        <p class="work-title"><a href="./features/portfolio2/layout.html">Portfolio 2</a></p>
+        <p class="work-title">
+          <a href="./features/portfolio2/layout.html"
+             target="_blank">Portfolio 2</a>
+        </p>
         <p>Responsive Nav</p>
       </div>
 
       <!-- Portfolio 3 -->
       <div class="sub-story">
 
-        <a href="./features/portfolio3/image.html">
+        <a href="./features/portfolio3/message.html" target="_blank">
           <img src="./images/portfolio3.png" alt="my work No.3" />
         </a>
 
-        <p class="work-title"><a href="./features/portfolio3/message.html">Portfolio 3</a></p>
+        <p class="work-title">
+          <a href="./features/portfolio3/message.html"
+             target="_blank">Portfolio 3</a>
+        </p>
         <p>Bootstrap and jQuery</p>
       </div>
 
