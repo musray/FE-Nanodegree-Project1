@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-size: 80%;
 }
+
 .header {
   text-align: center;
   border-bottom: 4px solid #cccccc;
@@ -12,7 +13,8 @@ body {
   top: 0;
   margin-left: 10px;
 }
-.logo img {
+
+.logo-image {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -20,16 +22,16 @@ body {
 }
 
 .my-info {
-  font-family: 'Passion One', cursive, sans-serif;
+  font-family: "Passion One", cursive, sans-serif;
   color: rgba(0,0,0,.8);
 }
 
 #my-name {
-  margin: 2px 0px;
+  margin: 2px 0;
 }
 
 #my-profession {
-  margin: 0px;
+  margin: 0;
 }
 
 .main-story {
@@ -38,7 +40,7 @@ body {
   padding-bottom: 10px;
 }
 
-.main-story img {
+.main-story-image {
   width: 100%;
 }
 
@@ -46,7 +48,7 @@ body {
   text-align: center;
 }
 
-.feature-story img {
+.sub-story-image {
   width: 100%;
   border: 2px inset #cccccc;
   box-sizing: border-box;
@@ -60,10 +62,11 @@ body {
   width: 50%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .work-title {
+  order: -1; /* for item layout order in flexbox */
   margin-bottom: 0;
   padding-bottom: 2px;
 }
