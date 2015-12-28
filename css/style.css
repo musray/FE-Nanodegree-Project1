@@ -1,87 +1,83 @@
 body {
   font-family: helvetica, sans-serif;
-  margin: 0px 0px 20px 0px;
+  margin: 0 0 20px 0;
   padding: 0;
   color: #969696;
 }
+
 .wrapper {
   max-width: 800px;
   margin: 0 auto;
 }
-.logo, .my-info {
+
+.logo,
+.my-info {
   float: left;
   font-family: 'Passion One', cursive, sans-serif;
   font-weight: ;
 }
+
 .logo {
   width: 30%;
-  padding: 15px 0px 10px 0px;
+  padding: 15px 0 10px 0;
 }
-.logo img {
+
+.logo-image {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   width: 80px;
   height: 80px;
 }
+
 #my-name {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-weight: lighter;
   letter-spacing: .2em;
 }
+
 #my-profession {
   margin-top: 0.3em;
   letter-spacing: .1em;
 }
+
 .my-info {
   text-align: right;
   width: 70%;
 }
 
-.main-story img {
-  width: 800px;
-  height: 300px;
+.main-story-image {
+  width: 100%;
 }
+
 .feature-title {
   width: 100%;
 }
+
 .feature-story {
   display: flex;
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  /* flex-flow is the shorthand for */
-  /* flex-direction and flex-wrap */
   flex-flow: row wrap;
   justify-content: space-between;
 }
+
 .sub-story {
   width: 30%;
 }
 
-.sub-story p {
-  text-align: center;
-  margin-bottom: 0px;
-}
-
-.sub-story img {
-  /* width: 250px; */
-  /* height: 200px; */
+.sub-story-image {
   width: 100%;
   max-height: 100%;
   border: 4px inset #cccccc;
   box-sizing: border-box;
 }
 
-
 .work-title {
   font-size: 1.5em;
   font-weight: bold;
   color: #34495E;
+  text-align: center;
+  margin-bottom: 0;
 }
-.work-link {
-  margin-top: 10px;
-  font-size: 0.6em;
-}
-.work-link a {
-  text-decoration: none;
-  color: inherit;
+
+.work-description {
+  text-align: center;
 }
